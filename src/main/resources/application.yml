@@ -1,0 +1,14 @@
+server:
+  port: 8898
+spring:
+  elasticsearch:
+    rest:
+      uris: http://192.168.219.137:9200
+  main:
+    allow-bean-definition-overriding: true
+  rabbitmq:
+    host: 192.168.219.137
+    port: 5672
+    publisherReturns: true
+    publisher-confirm-type: correlated
+
