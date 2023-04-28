@@ -9,6 +9,10 @@ import java.io.ByteArrayInputStream;
 import java.io.ObjectInputStream;
 import java.util.Map;
 
+/**
+ * Channel
+ * Message Listener
+ */
 @Component
 public class MyAckReceiver implements ChannelAwareMessageListener {
     @Override
